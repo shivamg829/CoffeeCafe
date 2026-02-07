@@ -355,7 +355,7 @@ body {
 
 .cta-section {
     background: linear-gradient(rgba(111, 78, 55, 0.9), rgba(62, 39, 35, 0.9)),
-                url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+                url('/img/Home.jpg');
     background-size: cover;
     background-position: center;
 }
