@@ -3,96 +3,1023 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCompany | Home</title>
+    <title>Mug Life</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">MyCompany</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<section class="hero-section text-center text-white">
-    <div class="container">
-        <h1 class="display-4 fw-bold">Build Modern Websites</h1>
-        <p class="lead">Professional Bootstrap website for your CV</p>
-        <a href="contact.html" class="btn btn-primary btn-lg mt-3">Get Started</a>
-    </div>
-</section>
-<section class="section-padding">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <h4>Responsive Design</h4>
-                <p class="text-muted">Works perfectly on all devices.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Bootstrap 5</h4>
-                <p class="text-muted">Fast and modern UI framework.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Clean Code</h4>
-                <p class="text-muted">Easy to read and maintain.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top cafe-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-coffee me-2"></i>Mug Life
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#specials">Specials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</section>
-<section class="bg-light section-padding">
-    <div class="container">
-        <h2 class="text-center mb-5">Our Services</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card text-center p-4">
-                    <h5>Web Design</h5>
-                    <p class="text-muted">Modern and user-friendly layouts.</p>
-                </div>
+    </nav>
+
+    <section id="home" class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Coffee & Homemade Bakery</h1>
+            <p class="lead mb-4">Serving premium coffee, fresh pastries, and warm atmosphere since 2020</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary btn-lg mt-3 px-5 py-3 me-3">View Our Menu</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg mt-3 px-5 py-3">Visit Us Today</a>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center p-4">
-                    <h5>Bootstrap UI</h5>
-                    <p class="text-muted">Reusable and scalable components.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title">Our Story</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="/img/h.avif" 
+                         alt="Mug Life interior" class="img-fluid about-img">
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card text-center p-4">
-                    <h5>Responsive Layout</h5>
-                    <p class="text-muted">Mobile-first approach.</p>
+                <div class="col-md-6">
+                    <h3 class="mb-4">A Passion for Perfect Coffee</h3>
+                    <p class="mb-4">Founded in 2020 by two coffee enthusiasts, Mug Life started as a small neighborhood spot and has grown into a community favorite. We roast our own beans and source ingredients locally whenever possible.</p>
+                    <p class="mb-4">Our baristas are trained in the art of coffee making, ensuring every cup is crafted with precision and care. We believe in creating a welcoming space where people can connect, work, or simply enjoy a moment of peace.</p>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <h5 class="coffee-brown">100+</h5>
+                            <p>Coffee Varieties</p>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="coffee-brown">6</h5>
+                            <p>Years of Service</p>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <h5 class="coffee-brown">50+</h5>
+                            <p>Pastry Recipes</p>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <h5 class="coffee-brown">1000+</h5>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="section-padding text-center">
-    <div class="container">
-        <h2>Ready to build your project?</h2>
-        <p class="text-muted">Let’s create something amazing together.</p>
-        <a href="contact.html" class="btn btn-dark">Contact Us</a>
-    </div>
-</section>
-<footer class="footer text-center">
-    <div class="container">
-        <p class="mb-0">© 2026 MyCompany | Bootstrap CV Project</p>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center section-title mb-5">Why Choose Us</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Ethically Sourced</h4>
+                        <p>We partner with sustainable farms that practice fair trade and environmental responsibility.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-mortar-pestle"></i>
+                        </div>
+                        <h4>Freshly Roasted</h4>
+                        <p>Our beans are roasted in-house weekly to ensure maximum freshness and flavor in every cup.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Homemade Pastries</h4>
+                        <p>Our bakery creates fresh pastries, cakes, and bread daily using traditional recipes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row text-center mt-4">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Community Focused</h4>
+                        <p>We host regular events and support local artists, musicians, and community initiatives.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Eco-Friendly</h4>
+                        <p>We use biodegradable packaging and implement sustainable practices throughout our operations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="feature-box w-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Award Winning</h4>
+                        <p>Recognized for excellence in coffee preparation and customer service since 2022.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="menu" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title">Our Coffee & Menu</h2>
+            <p class="text-center mb-5">Discover our carefully crafted beverages and delicious food options</p>
+            
+            <div class="menu-section">
+                <h3 class="menu-category-title"><i class="fas fa-coffee me-2"></i>Coffee & Espresso</h3>
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/houseblend.png" 
+                                         alt="House Blend Coffee" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>House Blend</h5>
+                                            <span class="price-tag">₹120</span>
+                                        </div>
+                                        <p class="menu-item-desc">Our signature medium roast with notes of chocolate and citrus</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/espresso.jpg" 
+                                         alt="Espresso" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Espresso</h5>
+                                            <span class="price-tag">₹80</span>
+                                        </div>
+                                        <p class="menu-item-desc">Intense and rich, served single or double shot</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Cappuccino.webp" 
+                                    alt="Cappuccino" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Cappuccino</h5>
+                                            <span class="price-tag">₹180</span>
+                                        </div>
+                                        <p class="menu-item-desc">Equal parts espresso, steamed milk, and milk foam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/latte.jpg" 
+                                    alt="Latte" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Latte</h5>
+                                            <span class="price-tag">₹160</span>
+                                        </div>
+                                        <p class="menu-item-desc">Espresso with steamed milk and light foam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/mocha.jpg" 
+                                    alt="Mocha" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Mocha</h5>
+                                            <span class="price-tag">₹200</span>
+                                        </div>
+                                        <p class="menu-item-desc">Espresso with chocolate and steamed milk, topped with whipped cream</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Americano.jpg" 
+                                    alt="Americano" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Americano</h5>
+                                            <span class="price-tag">₹150</span>
+                                        </div>
+                                        <p class="menu-item-desc">Espresso diluted with hot water for a similar strength to drip coffee</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-section">
+                <h3 class="menu-category-title"><i class="fas fa-mug-hot me-2"></i>Tea & Specialty Drinks</h3>
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Chai Latte.jpg" 
+                                    alt="Chai Latte" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Chai Latte</h5>
+                                            <span class="price-tag">₹150</span>
+                                        </div>
+                                        <p class="menu-item-desc">Spiced black tea with steamed milk</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/Matcha Green Tea.jpg" 
+                                    alt="Matcha Green Tea" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Matcha Green Tea</h5>
+                                            <span class="price-tag">₹120</span>
+                                        </div>
+                                        <p class="menu-item-desc">Ceremonial grade matcha whisked to perfection</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Hot Chocolate.jpg" 
+                                    alt="Hot Chocolate" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Hot Chocolate</h5>
+                                            <span class="price-tag">₹180</span>
+                                        </div>
+                                        <p class="menu-item-desc">Rich dark chocolate with steamed milk</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/Iced Coffee.jpg" 
+                                    alt="Iced Coffee" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Iced Coffee</h5>
+                                            <span class="price-tag">₹200</span>
+                                        </div>
+                                        <p class="menu-item-desc">Cold brew served over ice</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Fresh Lemonade.jpg" 
+                                    alt="Fresh Lemonade" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Fresh Lemonade</h5>
+                                            <span class="price-tag">₹180</span>
+                                        </div>
+                                        <p class="menu-item-desc">Homemade with fresh lemons and mint</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/Seasonal Smoothie.jpg" 
+                                         alt="Seasonal Smoothie" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Seasonal Smoothie</h5>
+                                            <span class="price-tag">₹250</span>
+                                        </div>
+                                        <p class="menu-item-desc">Fresh fruit blended with yogurt or juice</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-section">
+                <h3 class="menu-category-title"><i class="fas fa-utensils me-2"></i>Food & Pastries</h3>
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Croissant.jpg" 
+                                         alt="Croissant" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Croissant</h5>
+                                            <span class="price-tag">₹120</span>
+                                        </div>
+                                        <p class="menu-item-desc">Buttery, flaky French-style pastry</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Chocolate Chip Muffin.jpg" 
+                                         alt="Chocolate Chip Muffin" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Chocolate Chip Muffin</h5>
+                                            <span class="price-tag">₹150</span>
+                                        </div>
+                                        <p class="menu-item-desc">Freshly baked with dark chocolate chips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Avocado Toast.jpg" 
+                                         alt="Avocado Toast" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Avocado Toast</h5>
+                                            <span class="price-tag">₹300</span>
+                                        </div>
+                                        <p class="menu-item-desc">Sourdough toast with mashed avocado, cherry tomatoes, and microgreens</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Quiche of the Day.jpg" 
+                                         alt="Quiche" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Quiche of the Day</h5>
+                                            <span class="price-tag">₹250</span>
+                                        </div>
+                                        <p class="menu-item-desc">Freshly baked with seasonal vegetables and cheese</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Bagel with Cream Cheese.jpg" 
+                                         alt="Bagel with Cream Cheese" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Bagel with Cream Cheese</h5>
+                                            <span class="price-tag">₹180</span>
+                                        </div>
+                                        <p class="menu-item-desc">Choice of plain, everything, or sesame bagel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Greek Yogurt Parfait.jpg" 
+                                         alt="Greek Yogurt Parfait" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Greek Yogurt Parfait</h5>
+                                            <span class="price-tag">₹350</span>
+                                        </div>
+                                        <p class="menu-item-desc">With granola, fresh berries, and honey</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Breakfast Sandwich.jpg" 
+                                         alt="Breakfast Sandwich" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Breakfast Sandwich</h5>
+                                            <span class="price-tag">₹200</span>
+                                        </div>
+                                        <p class="menu-item-desc">Egg, cheese, and choice of bacon or sausage on a croissant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Seasonal Fruit Bowl.webp" 
+                                         alt="Seasonal Fruit Bowl" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Seasonal Fruit Bowl</h5>
+                                            <span class="price-tag">₹220</span>
+                                        </div>
+                                        <p class="menu-item-desc">Fresh local fruits in season</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-section">
+                <h3 class="menu-category-title"><i class="fas fa-ice-cream me-2"></i>Desserts</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/New York.jpg" 
+                                         alt="New York Cheesecake" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>New York Cheesecake</h5>
+                                            <span class="price-tag">₹650</span>
+                                        </div>
+                                        <p class="menu-item-desc">Creamy classic cheesecake with berry compote</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Chocolate Brownie.jpg" 
+                                         alt="Chocolate Brownie" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Chocolate Brownie</h5>
+                                            <span class="price-tag">₹450</span>
+                                        </div>
+                                        <p class="menu-item-desc">Warm, fudgy brownie with walnuts</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Tiramisu.jpg" 
+                                         alt="Tiramisu" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Tiramisu</h5>
+                                            <span class="price-tag">₹650</span>
+                                        </div>
+                                        <p class="menu-item-desc">Layers of coffee-soaked ladyfingers and mascarpone cream</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="/img/Cookies (3pc).jpg" 
+                                         alt="Cookies" class="img-fluid menu-item-img">
+                                </div>
+                                <div class="col-8">
+                                    <div class="menu-item-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5>Cookies (3pc)</h5>
+                                            <span class="price-tag">₹120</span>
+                                        </div>
+                                        <p class="menu-item-desc">Choose from chocolate chip, oatmeal raisin, or double chocolate</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specials" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Daily Specials</h2>
+            <p class="text-center mb-5">Check out our rotating specials and seasonal offerings</p>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Morning Special</div>
+                        <img src="/img/any coffee + croissant or muffin.jpg" 
+                             alt="Breakfast Combo" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Breakfast Combo</h4>
+                            <p class="flex-grow-1">Any coffee + croissant or muffin</p>
+                            <h3 class="coffee-brown">₹650</h3>
+                            <p>Available until 11am daily</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Afternoon Delight</div>
+                        <img src="img/Any espresso drink + slice of cake.jpg" 
+                             alt="Coffee & Dessert" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Coffee & Dessert Pairing</h4>
+                            <p class="flex-grow-1">Any espresso drink + slice of cake</p>
+                            <h3 class="coffee-brown">₹950</h3>
+                            <p>2pm-5pm daily</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Student Discount</div>
+                        <img src="/img/Large coffee + cookie with valid student ID.jpg" 
+                             alt="Study Break" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Study Break</h4>
+                            <p class="flex-grow-1">Large coffee + cookie with valid student ID</p>
+                            <h3 class="coffee-brown">₹200</h3>
+                            <p>All day, every day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Family Bundle</div>
+                        <img src="/img/4 drinks + 4 pastries of your choice.jpg" 
+                             alt="Family Bundle" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Family Bundle</h4>
+                            <p class="flex-grow-1">4 drinks + 4 pastries of your choice</p>
+                            <h3 class="coffee-brown">₹2499</h3>
+                            <p>Weekends only</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Happy Hour</div>
+                        <img src="/img/New York.jpg" 
+                             alt="Happy Hour" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Happy Hour</h4>
+                            <p class="flex-grow-1">50% off all pastries after 4pm</p>
+                            <h3 class="coffee-brown">4-6pm</h3>
+                            <p>Monday to Friday</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card special-card text-center w-100">
+                        <div class="special-badge">Loyalty Reward</div>
+                        <img src="/img/Iced Coffee.jpg" 
+                             alt="Loyalty Reward" class="card-img-top special-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Buy 9 Get 1 Free</h4>
+                            <p class="flex-grow-1">Collect stamps for every coffee purchase</p>
+                            <h3 class="coffee-brown">Free Drink</h3>
+                            <p>After 9 purchases</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title">Our Cafe Gallery</h2>
+            <p class="text-center mb-5">Take a look at our cozy atmosphere and delicious offerings</p>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/Cozy Interior.jpg" 
+                             alt="Cafe Interior" class="img-fluid rounded gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Cozy Interior</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/Latte Art.jpg" 
+                             alt="Coffee Art" class="img-fluid rounded gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Latte Art</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/fresh.jpg" 
+                             alt="Fresh Pastries" class="img-fluid rounded gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Fresh Bakery</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Upcoming Events</h2>
+            <p class="text-center mb-5">Join us for community events and special gatherings</p>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card event-card w-100">
+                        <div class="event-date">
+                            <span class="event-day">15</span>
+                            <span class="event-month">Nov</span>
+                        </div>
+                        <img src="img/Live Music Night.jpg" 
+                             alt="Live Music Night" class="card-img-top event-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Live Music Night</h4>
+                            <p class="flex-grow-1">Enjoy acoustic performances by local artists while sipping your favorite coffee.</p>
+                            <div class="event-details">
+                                <p><i class="fas fa-clock me-2"></i>7:00 PM - 9:00 PM</p>
+                                <p><i class="fas fa-user me-2"></i>Free Entry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card event-card w-100">
+                        <div class="event-date">
+                            <span class="event-day">22</span>
+                            <span class="event-month">Nov</span>
+                        </div>
+                        <img src="img/latteAtr.jpg" 
+                             alt="Latte Art Workshop" class="card-img-top event-card-img">
+                             <div class="card-body p-4 d-flex flex-column">
+                                 <h4 class="card-title">Latte Art Workshop</h4>
+                            <p class="flex-grow-1">Learn the basics of latte art from our expert baristas. Limited spots available.</p>
+                            <div class="event-details">
+                                <p><i class="fas fa-clock me-2"></i>2:00 PM - 4:00 PM</p>
+                                <p><i class="fas fa-user me-2"></i>Free Entry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card event-card w-100">
+                        <div class="event-date">
+                            <span class="event-day">29</span>
+                            <span class="event-month">Nov</span>
+                        </div>
+                        <img src="/img/book.jpg" 
+                             alt="Book Club Meeting" class="card-img-top event-card-img">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="card-title">Book Club Meeting</h4>
+                            <p class="flex-grow-1">Monthly book discussion with fellow readers. This month: "The Midnight Library".</p>
+                            <div class="event-details">
+                                <p><i class="fas fa-clock me-2"></i>6:30 PM - 8:00 PM</p>
+                                <p><i class="fas fa-user me-2"></i>Free for members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card w-100">
+                        <div class="text-center">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h5 class="mt-3">Shivam Gangwar</h5>
+                        </div>
+                        <p>The best latte in town! I come here every morning before work. The atmosphere is cozy and the staff always remembers my order.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card w-100">
+                        <div class="text-center">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h5 class="mt-3">Deshraj Soni</h5>
+                        </div>
+                        <p>I work remotely and this is my favorite spot. Great WiFi, delicious coffee, and the avocado toast is incredible. Highly recommend!</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card w-100">
+                        <div class="text-center">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h5 class="mt-3">Prajjwal Rai</h5>
+                        </div>
+                        <p>Their seasonal drinks are always creative and delicious. The pumpkin spice latte in fall is the best I've ever had!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Visit Us</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-info-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="mb-4">Location & Hours</h4>
+                                <p><i class="fas fa-map-marker-alt coffee-brown me-2"></i>Near Bus Stand, Milak</p>
+                                <p><i class="fas fa-phone coffee-brown me-2"></i>+916398461326</p>
+                                <p><i class="fas fa-envelope coffee-brown me-2"></i> shivamgangwar2197@gmail.com</p>
+                                
+                                <h5 class="mt-4">Hours</h5>
+                                <ul class="list-unstyled">
+                                    <li>Monday-Friday: 6:30am - 8:00pm</li>
+                                    <li>Saturday: 7:00am - 9:00pm</li>
+                                    <li>Sunday: 7:30am - 6:00pm</li>
+                                </ul>
+                                
+                                <h5 class="mt-4">Amenities</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-wifi me-2"></i> Free High-Speed WiFi</li>
+                                    <li><i class="fas fa-paw me-2"></i> Pet-Friendly Outdoor Seating</li>
+                                    <li><i class="fas fa-plug me-2"></i> Charging Stations</li>
+                                    <li><i class="fas fa-book me-2"></i> Reading Nook</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="mb-4">Quick Contact</h4>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                    <div class="mb-3">
+                                        <select class="form-select" required>
+                                            <option value="">Select Inquiry Type</option>
+                                            <option>General Question</option>
+                                            <option>Event Booking</option>
+                                            <option>Catering Inquiry</option>
+                                            <option>Feedback</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h5>Free WiFi</h5>
+                    <p>Stay connected with our high-speed internet</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h5>Pet Friendly</h5>
+                    <p>Outdoor seating welcomes furry friends</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h5>Community Events</h5>
+                    <p>Weekly book clubs and open mic nights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding text-center text-white cta-section">
+        <div class="container">
+            <h2 class="mb-4">Join Our Coffee Club</h2>
+            <p>Get 10% off your first order and be the first to know about new drinks and special offers.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email address">
+                        <button class="btn btn-light" type="button">Subscribe</button>
+                    </div>
+                    <p class="small">By subscribing, you agree to receive promotional emails from Mug Life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4"><i class="fas fa-coffee me-2"></i>Mug Life</h4>
+                    <p>Where every cup tells a story. Serving the community with passion since 2020.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#menu" class="text-white text-decoration-none">Full Menu</a></li>
+                        <li><a href="#specials" class="text-white text-decoration-none">Daily Specials</a></li>
+                        <li><a href="#events" class="text-white text-decoration-none">Events</a></li>
+                        <li><a href="#gallery" class="text-white text-decoration-none">Gallery</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">Our Story</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact & Hours</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">Location</h5>
+                    <p class="mb-3">
+                        <i class="fas fa-map-marker-alt me-2"></i>Near Bus Stand, Milak<br>
+                    </p>
+                    <p class="mb-3">
+                        <i class="fas fa-clock me-2"></i>Mon-Fri: 6:30am-8pm<br>
+                        Sat-Sun: 7am-9pm
+                    </p>
+                    <p>
+                        <i class="fas fa-phone me-2"></i>+916398461326
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope me-2"></i>shivamgangwar2197@gmail.com
+                    </p>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center">
+                <p class="mb-0">© 2026 Mug Life. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
